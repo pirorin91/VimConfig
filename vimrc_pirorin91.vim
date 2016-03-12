@@ -18,6 +18,9 @@ endif
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" Set encoding as UTF-8
+set encoding=utf-8
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
