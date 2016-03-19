@@ -113,8 +113,6 @@ call neobundle#begin(expand('~/.vim/bundle'))
 " NeoBundleを更新するための設定
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-call neobundle#end()
-
 " 読み込むプラグインを記載
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
@@ -130,3 +128,5 @@ if !has('vim_starting')
   set runtimepath+=~/.vim/bundle/neobundle.vim
   call neobundle#call_hook('on_source')
 endif
+
+call neobundle#end()
